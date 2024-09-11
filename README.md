@@ -209,10 +209,7 @@ Translation Component as a key/value to use it with Spatie Translatable Filament
 
 ## Filament Sticky Notes
 
-
-
 ![Filament Sticky Notes](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5xklxjwdlegqovxbglsj.jpg)
-
 
 Add Sticky Notes to your FilamentPHP dashboard with tons of options and style
 
