@@ -342,6 +342,121 @@ Add Sticky Notes to your FilamentPHP dashboard with tons of options and style
 
 [Filament Sticky Notes](https://www.github.com/tomatophp/filament-notes)
 
+# Filament Invoices Manager
+
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-invoices/version.svg)](https://packagist.org/packages/tomatophp/filament-invoices)
+[![License](https://poser.pugx.org/tomatophp/filament-invoices/license.svg)](https://packagist.org/packages/tomatophp/filament-invoices)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-invoices/d/total.svg)](https://packagist.org/packages/tomatophp/filament-invoices)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-invoices?style=flat)](https://packagist.org/packages/tomatophp/filament-invoices)
+
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-invoices/master/arts/3x1io-tomato-invoices.jpg)
+
+Generate and manage your invoices / payments using multi currencies and multi types in FilamentPHP
+
+[Filament Invoices Manager](https://www.github.com/tomatophp/filament-invoices)
+
+
+# Filament PWA
+
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-pwa/version.svg)](https://packagist.org/packages/tomatophp/filament-pwa)
+[![License](https://poser.pugx.org/tomatophp/filament-pwa/license.svg)](https://packagist.org/packages/tomatophp/filament-pwa)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-pwa/d/total.svg)](https://packagist.org/packages/tomatophp/filament-pwa)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-pwa?style=flat)](https://packagist.org/packages/tomatophp/filament-pwa)
+
+![Screenshot](https://raw.githubusercontent.com//tomatophp/filament-pwa/master/arts/3x1io-tomato-pwa.jpg)
+
+get a PWA feature on your FilamentPHP app with settings from panel
+
+[Filament PWA](https://www.github.com/tomatophp/filament-pwa)
+
+
+# Filament Simple Theme
+
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-simple-theme/version.svg)](https://packagist.org/packages/tomatophp/filament-simple-theme)
+[![License](https://poser.pugx.org/tomatophp/filament-simple-theme/license.svg)](https://packagist.org/packages/tomatophp/filament-simple-theme)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-simple-theme/d/total.svg)](https://packagist.org/packages/tomatophp/filament-simple-theme)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-simple-theme?style=flat)](https://packagist.org/packages/tomatophp/filament-simple-theme)
+
+
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-simple-theme/master/arts/3x1io-tomato-simple-theme.jpg)
+
+A simple theme for FilamentPHP with custom user menu in sidebar
+
+
+[Filament Simple Theme](https://www.github.com/tomatophp/filament-simple-theme)
+
+# Filament Subscriptions
+
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-subscriptions/version.svg)](https://packagist.org/packages/tomatophp/filament-subscriptions)
+[![License](https://poser.pugx.org/tomatophp/filament-subscriptions/license.svg)](https://packagist.org/packages/tomatophp/filament-subscriptions)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-subscriptions/d/total.svg)](https://packagist.org/packages/tomatophp/filament-subscriptions)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-subscriptions?style=flat)](https://packagist.org/packages/tomatophp/filament-subscriptions)
+
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-subscriptions/master/arts/megoxv-tomato-subscriptions.jpg)
+
+Manage subscriptions and feature access with customizable plans in FilamentPHP
+
+thanks for [Laravel Subscriptions](https://github.com/laravelcm/laravel-subscriptions) you can review it before use this package.
+
+[Filament Subscriptions](https://www.github.com/tomatophp/filament-subscriptions)
+
+# Filament POS
+
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-pos/version.svg)](https://packagist.org/packages/tomatophp/filament-pos)
+[![License](https://poser.pugx.org/tomatophp/filament-pos/license.svg)](https://packagist.org/packages/tomatophp/filament-pos)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-pos/d/total.svg)](https://packagist.org/packages/tomatophp/filament-pos)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-pos?style=flat)](https://packagist.org/packages/tomatophp/filament-pos)
+
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-pos/blob/master/arts/3x1io-tomato-pos.jpg)
+
+POS System for FilamentPHP with a lot of features and integration with Ecommerce Builder
+
+[Filament POS](https://www.github.com/tomatophp/filament-pos)
+
+
+# Filament Tenancy
+
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-tenancy/version.svg)](https://packagist.org/packages/tomatophp/filament-tenancy)
+[![License](https://poser.pugx.org/tomatophp/filament-tenancy/license.svg)](https://packagist.org/packages/tomatophp/filament-tenancy)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-tenancy/d/total.svg)](https://packagist.org/packages/tomatophp/filament-tenancy)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-tenancy?style=flat)](https://packagist.org/packages/tomatophp/filament-tenancy)
+
+
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-tenancy/master/arts/3x1io-tomato-tenancy.jpg)
+
+Tenancy multi-database integration for FilamentPHP
+
+[Filament Tenancy](https://www.github.com/tomatophp/filament-tenancy)
+
+
+# Filament Withdrawals
+
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-withdrawals/version.svg)](https://packagist.org/packages/tomatophp/filament-withdrawals)
+[![License](https://poser.pugx.org/tomatophp/filament-withdrawals/license.svg)](https://packagist.org/packages/tomatophp/filament-withdrawals)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-withdrawals/d/total.svg)](https://packagist.org/packages/tomatophp/filament-withdrawals)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-withdrawals?style=flat)](https://packagist.org/packages/tomatophp/filament-withdrawals)
+
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-withdrawals/master/arts/megoxv-tomato-withdrawals.jpg)
+
+Manage your withdrawals in Filament
+
+[Filament Withdrawals](https://www.github.com/tomatophp/filament-withdrawals)
+
+
+# Filament Payment Manager
+
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-payments/version.svg)](https://packagist.org/packages/tomatophp/filament-payments)
+[![License](https://poser.pugx.org/tomatophp/filament-payments/license.svg)](https://packagist.org/packages/tomatophp/filament-payments)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-payments/d/total.svg)](https://packagist.org/packages/tomatophp/filament-payments)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-payments?style=flat)](https://packagist.org/packages/tomatophp/filament-payments)
+
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-payments/master/arts/3x1io-tomato-payments.jpg)
+
+
+Manage your payments inside FilamentPHP app with multi payment gateway integration
+
+[Filament Payment Manager](https://www.github.com/tomatophp/filament-payments)
+
 ## Support
 
 you can join our discord server to get support [TomatoPHP](https://discord.gg/Xqmt35Uh)
@@ -353,6 +468,7 @@ you can check docs of all packages on [Docs](https://docs.tomatophp.com)
 ## Credits
 
 - [Fady Mondy](https://wa.me/+201207860084)
+- [Abdelmjid](https://wa.me/201091523908)
 
 ## Changelog
 
