@@ -2,10 +2,55 @@ Hello, Laravel and PHP enthusiasts!
 
 We are excited to announce that we are enhancing our contributions to the Laravel & PHP community. Our team is developing a series of powerful packages and plugins for FilamentPHP, bringing the robust features of the TomatoPHP framework directly to your Filament applications. Stay tuned for more updates and take your Filament apps to the next level with TomatoPHP!
 
-here are the top plugins we create for FilamentPHP
+## Use Plugin as a Module
 
+before use this feature please make sure that you are publish the config file of `modules.php` using this command
 
-## Filament Users
+```bash
+ php artisan vendor:publish --provider="Nwidart\Modules\LaravelModulesServiceProvider" --tag="config"
+```
+
+on the config file edit this `'enabled' => true,`
+
+```php
+<?php
+
+return [
+    /*
+    |--------------------------------------------------------------------------
+    | Scan Path
+    |--------------------------------------------------------------------------
+    |
+    | Here you define which folder will be scanned. By default will scan vendor
+    | directory. This is useful if you host the package in packagist website.
+    |
+    */
+    'scan' => [
+        'enabled' => true,
+        'paths' => [
+            base_path('vendor/*/*'),
+        ],
+    ],
+]
+```
+
+all of this plugin can work as a module inside your app using our `filament-plugins` package and use this command
+
+```bash
+php artisan filament-plugins:publish
+```
+
+and type the name of the plugin you went to publish, if you don't know the plugin name you can use the list of all plugins using this command
+
+```bash
+php artisan module:list
+```
+
+## Plugins List
+
+here is the plugins list you can use.
+
+#### Filament Users
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-users/version.svg)](https://packagist.org/packages/tomatophp/filament-users)
 [![License](https://poser.pugx.org/tomatophp/filament-users/license.svg)](https://packagist.org/packages/tomatophp/filament-users)
@@ -19,7 +64,7 @@ User Table Resource with a lot of package integrations
 [Filament Users V2](https://www.github.com/tomatophp/filament-users)
 [Filament Users V1](https://www.github.com/3x1io/filament-user)
 
-## Filament Translations
+### Filament Translations
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-translations/version.svg)](https://packagist.org/packages/tomatophp/filament-translations)
 [![License](https://poser.pugx.org/tomatophp/filament-translations/license.svg)](https://packagist.org/packages/tomatophp/filament-translations)
@@ -34,7 +79,7 @@ Manage your translation with DB and cache, you can scan your language tags like 
 [Filament Translations V2](https://www.github.com/tomatophp/filament-translations)
 [Filament Translations V1](https://www.github.com/3x1io/filament-translations)
 
-## Filament Plugins
+### Filament Plugins
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-plugins/version.svg)](https://packagist.org/packages/tomatophp/filament-plugins)
 [![License](https://poser.pugx.org/tomatophp/filament-plugins/license.svg)](https://packagist.org/packages/tomatophp/filament-plugins)
@@ -47,7 +92,7 @@ Manage your modules as a plugin system with a plugin generator
 
 [Filament Plugins](https://www.github.com/tomatophp/filament-plugins)
 
-## Filament Media Manager
+### Filament Media Manager
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-media-manager/version.svg)](https://packagist.org/packages/tomatophp/filament-media-manager)
 [![License](https://poser.pugx.org/tomatophp/filament-media-manager/license.svg)](https://packagist.org/packages/tomatophp/filament-media-manager)
@@ -62,7 +107,7 @@ Manage your media files using spatie media library with easy to use GUI for Fila
 [Filament Media Manager](https://www.github.com/tomatophp/filament-media-manager)
 
 
-## Filament Developer Gate
+### Filament Developer Gate
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-developer-gate/version.svg)](https://packagist.org/packages/tomatophp/filament-developer-gate)
 [![License](https://poser.pugx.org/tomatophp/filament-developer-gate/license.svg)](https://packagist.org/packages/tomatophp/filament-developer-gate)
@@ -75,7 +120,7 @@ Secure your selected route by using a middleware with a static password for deve
 
 [Filament Developer Gate](https://www.github.com/tomatophp/filament-developer-gate)
 
-## Filament Accounts
+### Filament Accounts
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-accounts/version.svg)](https://packagist.org/packages/tomatophp/filament-accounts)
 [![License](https://poser.pugx.org/tomatophp/filament-accounts/license.svg)](https://packagist.org/packages/tomatophp/filament-accounts)
@@ -89,7 +134,7 @@ full accounts manager with API/Notifications/Contacts to manage your contacts an
 
 [Filament Accounts](https://www.github.com/tomatophp/filament-accounts)
 
-## Filament Wallet
+### Filament Wallet
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-wallet/version.svg)](https://packagist.org/packages/tomatophp/filament-wallet)
 [![License](https://poser.pugx.org/tomatophp/filament-wallet/license.svg)](https://packagist.org/packages/tomatophp/filament-wallet)
@@ -103,7 +148,7 @@ Account Balance / Wallets Manager For FilamentPHP and Filament Account Builder
 
 [Filament Wallet](https://www.github.com/tomatophp/filament-wallet)
 
-## Filament Alerts
+### Filament Alerts
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-alerts/version.svg)](https://packagist.org/packages/tomatophp/filament-alerts)
 [![License](https://poser.pugx.org/tomatophp/filament-alerts/license.svg)](https://packagist.org/packages/tomatophp/filament-alerts)
@@ -116,7 +161,7 @@ Send notifications to users using notification templates and multi-notification 
 
 [Filament Alerts](https://www.github.com/tomatophp/filament-alerts)
 
-## Filament FCM
+### Filament FCM
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-fcm/version.svg)](https://packagist.org/packages/tomatophp/filament-fcm)
 [![License](https://poser.pugx.org/tomatophp/filament-fcm/license.svg)](https://packagist.org/packages/tomatophp/filament-fcm)
@@ -129,7 +174,7 @@ Firebase Cloud Messaging integration to Native FilamentPHP Notification Package
 
 [Filament FCM](https://www.github.com/tomatophp/filament-fcm)
 
-## Filament Helpers
+### Filament Helpers
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-helpers/version.svg)](https://packagist.org/packages/tomatophp/filament-helpers)
 [![License](https://poser.pugx.org/tomatophp/filament-helpers/license.svg)](https://packagist.org/packages/tomatophp/filament-helpers)
@@ -142,7 +187,7 @@ Helper Class Generator to manage your forms and table inside your filament app
 
 [Filament Helpers](https://www.github.com/tomatophp/filament-helpers)
 
-## Filament Icons
+### Filament Icons
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-icons/version.svg)](https://packagist.org/packages/tomatophp/filament-icons)
 [![License](https://poser.pugx.org/tomatophp/filament-icons/license.svg)](https://packagist.org/packages/tomatophp/filament-icons)
@@ -155,7 +200,7 @@ Picker & Table Column & Icons Provider for FilamentPHP
 
 [Filament Icons](https://www.github.com/tomatophp/filament-icons)
 
-## Filament CMS
+### Filament CMS
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-cms/version.svg)](https://packagist.org/packages/tomatophp/filament-cms)
 [![License](https://poser.pugx.org/tomatophp/filament-cms/license.svg)](https://packagist.org/packages/tomatophp/filament-cms)
@@ -168,7 +213,7 @@ Full CMS System with easy-to-use page builder & theme manager for FilamentPHP
 
 [Filament CMS](https://www.github.com/tomatophp/filament-cms)
 
-## Filament Types
+### Filament Types
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-types/version.svg)](https://packagist.org/packages/tomatophp/filament-types)
 [![License](https://poser.pugx.org/tomatophp/filament-types/license.svg)](https://packagist.org/packages/tomatophp/filament-types)
@@ -181,7 +226,7 @@ Manage any type on your app in the Database with easy Resources for FilamentPHP
 
 [Filament Types](https://www.github.com/tomatophp/filament-types)
 
-## Filament Menus
+### Filament Menus
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-menus/version.svg)](https://packagist.org/packages/tomatophp/filament-menus)
 [![License](https://poser.pugx.org/tomatophp/filament-menus/license.svg)](https://packagist.org/packages/tomatophp/filament-menus)
@@ -194,7 +239,7 @@ Menu Database builder to use as a navigation on Filament Panel or as a Livewire 
 
 [Filament Menus](https://www.github.com/tomatophp/filament-menus)
 
-## Filament Browser
+### Filament Browser
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-browser/version.svg)](https://packagist.org/packages/tomatophp/filament-browser)
 [![License](https://poser.pugx.org/tomatophp/filament-browser/license.svg)](https://packagist.org/packages/tomatophp/filament-browser)
@@ -207,7 +252,7 @@ File & Folders & Media Browser With Code Editor
 
 [Filament Browser](https://www.github.com/tomatophp/filament-browser)
 
-## Filament Artisan
+### Filament Artisan
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-artisan/version.svg)](https://packagist.org/packages/tomatophp/filament-artisan)
 [![License](https://poser.pugx.org/tomatophp/filament-artisan/license.svg)](https://packagist.org/packages/tomatophp/filament-artisan)
@@ -220,7 +265,7 @@ Simple yet powerful library for running some artisan commands. this package is a
 
 [Filament Artisan](https://www.github.com/tomatophp/filament-artisan)
 
-## Filament Settings Hub
+### Filament Settings Hub
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-settings-hub/version.svg)](https://packagist.org/packages/tomatophp/filament-settings-hub)
 [![License](https://poser.pugx.org/tomatophp/filament-settings-hub/license.svg)](https://packagist.org/packages/tomatophp/filament-settings-hub)
@@ -233,7 +278,7 @@ Manage your app settings with GUI and helpers
 
 [Filament Settings Hub](https://www.github.com/tomatophp/filament-settings-hub)
 
-## Filament Locations
+### Filament Locations
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-locations/version.svg)](https://packagist.org/packages/tomatophp/filament-locations)
 [![License](https://poser.pugx.org/tomatophp/filament-locations/license.svg)](https://packagist.org/packages/tomatophp/filament-locations)
@@ -246,7 +291,7 @@ Database Seeds for Locations for FilamentPHP
 
 [Filament Locations](https://www.github.com/tomatophp/filament-locations)
 
-## Filament Splade
+### Filament Splade
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-splade/version.svg)](https://packagist.org/packages/tomatophp/filament-splade)
 [![License](https://poser.pugx.org/tomatophp/filament-splade/license.svg)](https://packagist.org/packages/tomatophp/filament-splade)
@@ -259,7 +304,7 @@ Integration of Splade Vue Components for Filament
 
 [Filament Splade](https://www.github.com/tomatophp/filament-splade)
 
-## Filament API
+### Filament API
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-api/version.svg)](https://packagist.org/packages/tomatophp/filament-api)
 [![License](https://poser.pugx.org/tomatophp/filament-api/license.svg)](https://packagist.org/packages/tomatophp/filament-api)
@@ -272,7 +317,7 @@ Generate APIs from your filament resource using a single line of code
 
 [Filament API](https://www.github.com/tomatophp/filament-api)
 
-## Filament E-commerce
+### Filament E-commerce
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-ecommerce/version.svg)](https://packagist.org/packages/tomatophp/filament-ecommerce)
 [![License](https://poser.pugx.org/tomatophp/filament-ecommerce/license.svg)](https://packagist.org/packages/tomatophp/filament-ecommerce)
@@ -285,7 +330,7 @@ Build your own e-commerce store with FilamentPHP with the Power of Tomato CMS Bu
 
 [Filament E-commerce](https://www.github.com/tomatophp/filament-ecommerce)
 
-## Filament Twilio
+### Filament Twilio
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-twilio/version.svg)](https://packagist.org/packages/tomatophp/filament-twilio)
 [![License](https://poser.pugx.org/tomatophp/filament-twilio/license.svg)](https://packagist.org/packages/tomatophp/filament-twilio)
@@ -300,7 +345,7 @@ Send Whatsapp messages using Twilio and native filament Notification Facade clas
 [Filament Twilio](https://www.github.com/tomatophp/filament-twilio)
 
 
-## Filament Discord
+### Filament Discord
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-discord/version.svg)](https://packagist.org/packages/tomatophp/filament-discord)
 [![License](https://poser.pugx.org/tomatophp/filament-discord/license.svg)](https://packagist.org/packages/tomatophp/filament-discord)
@@ -313,7 +358,7 @@ Send Notification to discord channel Webhook using native FilamentPHP Notificati
 
 [Filament Discord](https://www.github.com/tomatophp/filament-discord)
 
-## Filament Translation Component
+### Filament Translation Component
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-translation-component/version.svg)](https://packagist.org/packages/tomatophp/filament-translation-component)
 [![License](https://poser.pugx.org/tomatophp/filament-translation-component/license.svg)](https://packagist.org/packages/tomatophp/filament-translation-component)
@@ -329,7 +374,7 @@ Translation Component as a key/value to use it with Spatie Translatable Filament
 [Filament Translation Component](https://www.github.com/tomatophp/filament-translation-component)
 
 
-## Filament Sticky Notes
+### Filament Sticky Notes
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-notes/version.svg)](https://packagist.org/packages/tomatophp/filament-notes)
 [![License](https://poser.pugx.org/tomatophp/filament-notes/license.svg)](https://packagist.org/packages/tomatophp/filament-notes)
@@ -457,23 +502,23 @@ Manage your payments inside FilamentPHP app with multi payment gateway integrati
 
 [Filament Payment Manager](https://www.github.com/tomatophp/filament-payments)
 
-## Support
+### Support
 
 you can join our discord server to get support [TomatoPHP](https://discord.gg/Xqmt35Uh)
 
-## Docs
+### Docs
 
 you can check docs of all packages on [Docs](https://docs.tomatophp.com)
 
-## Credits
+### Credits
 
 - [Fady Mondy](https://wa.me/+201207860084)
 - [Abdelmjid](https://wa.me/201091523908)
 
-## Changelog
+### Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## License
+### License
 
 The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
