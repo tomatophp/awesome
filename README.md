@@ -407,7 +407,7 @@ thanks for [Laravel Subscriptions](https://github.com/laravelcm/laravel-subscrip
 [![Downloads](https://poser.pugx.org/tomatophp/filament-pos/d/total.svg)](https://packagist.org/packages/tomatophp/filament-pos)
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-pos?style=flat)](https://packagist.org/packages/tomatophp/filament-pos)
 
-![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-pos/blob/master/arts/3x1io-tomato-pos.jpg)
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-pos/master/arts/3x1io-tomato-pos.jpg)
 
 POS System for FilamentPHP with a lot of features and integration with Ecommerce Builder
 
