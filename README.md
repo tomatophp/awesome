@@ -291,19 +291,6 @@ Database Seeds for Locations for FilamentPHP
 
 [Filament Locations](https://www.github.com/tomatophp/filament-locations)
 
-### Filament Splade
-
-[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-splade/version.svg)](https://packagist.org/packages/tomatophp/filament-splade)
-[![License](https://poser.pugx.org/tomatophp/filament-splade/license.svg)](https://packagist.org/packages/tomatophp/filament-splade)
-[![Downloads](https://poser.pugx.org/tomatophp/filament-splade/d/total.svg)](https://packagist.org/packages/tomatophp/filament-splade)
-[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-splade?style=flat)](https://packagist.org/packages/tomatophp/filament-splade)
-
-![Filament Splade](https://raw.githubusercontent.com/tomatophp/filament-splade/master/arts/3x1io-tomato-splade.jpg)
-
-Integration of Splade Vue Components for Filament
-
-[Filament Splade](https://www.github.com/tomatophp/filament-splade)
-
 ### Filament API
 
 [![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-api/version.svg)](https://packagist.org/packages/tomatophp/filament-api)
