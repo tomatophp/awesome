@@ -489,6 +489,78 @@ Manage your payments inside FilamentPHP app with multi payment gateway integrati
 
 [Filament Payment Manager](https://www.github.com/tomatophp/filament-payments)
 
+# Filament User Logger
+
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-logger/version.svg)](https://packagist.org/packages/tomatophp/filament-logger)
+[![License](https://poser.pugx.org/tomatophp/filament-logger/license.svg)](https://packagist.org/packages/tomatophp/filament-logger)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-logger/d/total.svg)](https://packagist.org/packages/tomatophp/filament-logger)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-logger?style=flat)](https://packagist.org/packages/tomatophp/filament-logger)
+
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-logger/master/arts/3x1io-tomato-logger.jpg)
+
+
+Log all user activity to file or log driver and preview it on your FilamentPHP panel
+
+[Filament User Logger](https://www.github.com/tomatophp/filament-logger)
+
+# Filament SEO Manager
+
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-seo/version.svg)](https://packagist.org/packages/tomatophp/filament-seo)
+[![License](https://poser.pugx.org/tomatophp/filament-seo/license.svg)](https://packagist.org/packages/tomatophp/filament-seo)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-seo/d/total.svg)](https://packagist.org/packages/tomatophp/filament-seo)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-seo?style=flat)](https://packagist.org/packages/tomatophp/filament-seo)
+
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-seo/master/arts/3x1io-tomato-seo.jpg)
+
+
+Manage and generate SEO tags and integrate your website with Google SEO services
+
+[Filament SEO Manager](https://www.github.com/tomatophp/filament-seo)
+
+# Filament Documents Editor
+
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-docs/version.svg)](https://packagist.org/packages/tomatophp/filament-docs)
+[![License](https://poser.pugx.org/tomatophp/filament-docs/license.svg)](https://packagist.org/packages/tomatophp/filament-docs)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-docs/d/total.svg)](https://packagist.org/packages/tomatophp/filament-docs)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-docs?style=flat)](https://packagist.org/packages/tomatophp/filament-docs)
+
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-docs/master/arts/3x1io-tomato-docs.jpg)
+
+
+Manage your documents and contracts all in one place with template builder
+
+[Filament Documents Editor](https://www.github.com/tomatophp/filament-docs)
+
+# Filament Social Media Manager
+
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-social/version.svg)](https://packagist.org/packages/tomatophp/filament-social)
+[![License](https://poser.pugx.org/tomatophp/filament-social/license.svg)](https://packagist.org/packages/tomatophp/filament-social)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-social/d/total.svg)](https://packagist.org/packages/tomatophp/filament-social)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-social?style=flat)](https://packagist.org/packages/tomatophp/filament-social)
+
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-social/master/arts/3x1io-tomato-social.jpg)
+
+
+Integration of social media platform actions and auth to your FilamentPHP panel
+
+[Filament Social Media Manager](https://www.github.com/tomatophp/filament-social)
+
+# Filament Blog Template
+
+[![Latest Stable Version](https://poser.pugx.org/tomatophp/filament-blog/version.svg)](https://packagist.org/packages/tomatophp/filament-blog)
+[![License](https://poser.pugx.org/tomatophp/filament-blog/license.svg)](https://packagist.org/packages/tomatophp/filament-blog)
+[![Downloads](https://poser.pugx.org/tomatophp/filament-blog/d/total.svg)](https://packagist.org/packages/tomatophp/filament-blog)
+[![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-blog?style=flat)](https://packagist.org/packages/tomatophp/filament-blog)
+
+![Screenshot](https://raw.githubusercontent.com/tomatophp/filament-blog/master/arts/3x1io-tomato-blog.jpg)
+
+
+Frontend for CMS Builder to build a blog and personal websites
+
+[Filament Blog Template](https://www.github.com/tomatophp/filament-blog)
+
+
+
 ### Support
 
 you can join our discord server to get support [TomatoPHP](https://discord.gg/Xqmt35Uh)
