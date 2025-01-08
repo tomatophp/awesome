@@ -57,7 +57,7 @@ here is the plugins list you can use.
 [![Downloads](https://poser.pugx.org/tomatophp/filament-users/d/total.svg)](https://packagist.org/packages/tomatophp/filament-users)
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-users?style=flat)](https://packagist.org/packages/tomatophp/filament-users)
 
-![Filament Users](https://raw.githubusercontent.com/tomatophp/filament-users/master/art/3x1io-tomato-users.jpg)
+![Filament Users](https://raw.githubusercontent.com/tomatophp/filament-users/master/arts/3x1io-tomato-users.jpg)
 
 User Table Resource with a lot of package integrations
 
