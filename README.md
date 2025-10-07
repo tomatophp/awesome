@@ -57,7 +57,7 @@ here is the plugins list you can use.
 [![Downloads](https://poser.pugx.org/tomatophp/filament-users/d/total.svg)](https://packagist.org/packages/tomatophp/filament-users)
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-users?style=flat)](https://packagist.org/packages/tomatophp/filament-users)
 
-![Filament Users](https://raw.githubusercontent.com/tomatophp/filament-users/master/arts/3x1io-tomato-users.jpg)
+![Filament Users](https://raw.githubusercontent.com/tomatophp/filament-users/master/arts/fadymondy-tomato-users.jpg)
 
 User Table Resource with a lot of package integrations
 
@@ -72,7 +72,7 @@ User Table Resource with a lot of package integrations
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-translations?style=flat)](https://packagist.org/packages/tomatophp/filament-translations)
 
 
-![Filament Translations](https://raw.githubusercontent.com/tomatophp/filament-translations/master/arts/3x1io-tomato-translations.jpg)
+![Filament Translations](https://raw.githubusercontent.com/tomatophp/filament-translations/master/arts/fadymondy-tomato-translations.jpg)
 
 Manage your translation with DB and cache, you can scan your language tags like trans(), __(), and get the string inside and translate them using UI.
 
@@ -99,7 +99,7 @@ Manage your modules as a plugin system with a plugin generator
 [![Downloads](https://poser.pugx.org/tomatophp/filament-media-manager/d/total.svg)](https://packagist.org/packages/tomatophp/filament-media-manager)
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-media-manager?style=flat)](https://packagist.org/packages/tomatophp/filament-media-manager)
 
-![Filament Media Manager](https://raw.githubusercontent.com/tomatophp/filament-media-manager/master/arts/3x1io-tomato-media-manager.jpg)
+![Filament Media Manager](https://raw.githubusercontent.com/tomatophp/filament-media-manager/master/arts/fadymondy-tomato-media-manager.jpg)
 
 
 Manage your media files using spatie media library with easy to use GUI for FilamentPHP
@@ -114,7 +114,7 @@ Manage your media files using spatie media library with easy to use GUI for Fila
 [![Downloads](https://poser.pugx.org/tomatophp/filament-developer-gate/d/total.svg)](https://packagist.org/packages/tomatophp/filament-developer-gate)
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-developer-gate?style=flat)](https://packagist.org/packages/tomatophp/filament-developer-gate)
 
-![Filament Developer Gate](https://raw.githubusercontent.com/tomatophp/filament-developer-gate/master/arts/3x1io-tomato-developer-gate.jpg)
+![Filament Developer Gate](https://raw.githubusercontent.com/tomatophp/filament-developer-gate/master/arts/fadymondy-tomato-developer-gate.jpg)
 
 Secure your selected route by using a middleware with a static password for developers only
 
@@ -155,7 +155,7 @@ Account Balance / Wallets Manager For FilamentPHP and Filament Account Builder
 [![Downloads](https://poser.pugx.org/tomatophp/filament-alerts/d/total.svg)](https://packagist.org/packages/tomatophp/filament-alerts)
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-alerts?style=flat)](https://packagist.org/packages/tomatophp/filament-alerts)
 
-![Image description](https://raw.githubusercontent.com/tomatophp/filament-alerts/master/arts/3x1io-tomato-alerts.jpg)
+![Image description](https://raw.githubusercontent.com/tomatophp/filament-alerts/master/arts/fadymondy-tomato-alerts.jpg)
 
 Send notifications to users using notification templates and multi-notification channels
 
@@ -194,7 +194,7 @@ Helper Class Generator to manage your forms and table inside your filament app
 [![Downloads](https://poser.pugx.org/tomatophp/filament-icons/d/total.svg)](https://packagist.org/packages/tomatophp/filament-icons)
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-icons?style=flat)](https://packagist.org/packages/tomatophp/filament-icons)
 
-![Filament Icons](https://raw.githubusercontent.com/tomatophp/filament-icons/master/arts/3x1io-tomato-icons.jpg)
+![Filament Icons](https://raw.githubusercontent.com/tomatophp/filament-icons/master/arts/fadymondy-tomato-icons.jpg)
 
 Picker & Table Column & Icons Provider for FilamentPHP
 
@@ -220,7 +220,7 @@ Full CMS System with easy-to-use page builder & theme manager for FilamentPHP
 [![Downloads](https://poser.pugx.org/tomatophp/filament-types/d/total.svg)](https://packagist.org/packages/tomatophp/filament-types)
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-types?style=flat)](https://packagist.org/packages/tomatophp/filament-types)
 
-![Filament Types](https://raw.githubusercontent.com/tomatophp/filament-types/master/arts/3x1io-tomato-types.jpg)
+![Filament Types](https://raw.githubusercontent.com/tomatophp/filament-types/master/arts/fadymondy-tomato-types.jpg)
 
 Manage any type on your app in the Database with easy Resources for FilamentPHP
 
@@ -272,7 +272,7 @@ Simple yet powerful library for running some artisan commands. this package is a
 [![Downloads](https://poser.pugx.org/tomatophp/filament-settings-hub/d/total.svg)](https://packagist.org/packages/tomatophp/filament-settings-hub)
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-settings-hub?style=flat)](https://packagist.org/packages/tomatophp/filament-settings-hub)
 
-![Filament Settings Hub](https://raw.githubusercontent.com/tomatophp/filament-settings-hub/master/arts/3x1io-tomato-settings-hub.jpg)
+![Filament Settings Hub](https://raw.githubusercontent.com/tomatophp/filament-settings-hub/master/arts/fadymondy-tomato-settings-hub.jpg)
 
 Manage your app settings with GUI and helpers
 
@@ -353,7 +353,7 @@ Send Notification to discord channel Webhook using native FilamentPHP Notificati
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-translation-component?style=flat)](https://packagist.org/packages/tomatophp/filament-translation-component)
 
 
-![Filament Translation Component](https://raw.githubusercontent.com/tomatophp/filament-translation-component/master/arts/3x1io-tomato-translation-component.jpg)
+![Filament Translation Component](https://raw.githubusercontent.com/tomatophp/filament-translation-component/master/arts/fadymondy-tomato-translation-component.jpg)
 
 
 Translation Component as a key/value to use it with Spatie Translatable FilamentPHP Plugin
