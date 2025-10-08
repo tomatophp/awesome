@@ -142,7 +142,7 @@ full accounts manager with API/Notifications/Contacts to manage your contacts an
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-wallet?style=flat)](https://packagist.org/packages/tomatophp/filament-wallet)
 
 
-![Filament Wallet](https://raw.githubusercontent.com/tomatophp/filament-wallet/master/arts/3x1io-tomato-wallet.jpg)
+![Filament Wallet](https://raw.githubusercontent.com/tomatophp/filament-wallet/master/arts/fadymondy-tomato-wallet.jpg)
 
 Account Balance / Wallets Manager For FilamentPHP and Filament Account Builder
 
