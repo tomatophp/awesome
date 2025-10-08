@@ -128,7 +128,7 @@ Secure your selected route by using a middleware with a static password for deve
 [![GitHub Repo stars](https://img.shields.io/github/stars/tomatophp/filament-accounts?style=flat)](https://packagist.org/packages/tomatophp/filament-accounts)
 
 
-![Filament Accounts](https://raw.githubusercontent.com/tomatophp/filament-accounts/master/arts/3x1io-tomato-accounts.jpg)
+![Filament Accounts](https://raw.githubusercontent.com/tomatophp/filament-accounts/master/arts/fadymondy-tomato-accounts.jpg)
 
 full accounts manager with API/Notifications/Contacts to manage your contacts and accounts
 
